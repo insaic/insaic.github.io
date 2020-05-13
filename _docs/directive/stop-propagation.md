@@ -8,7 +8,7 @@ order: 1
 
 {% highlight typescript %}
 @Directive({
-	selector: "[stopPropagation]"
+selector: "[stopPropagation]"
 })
 {% endhighlight %}
 
