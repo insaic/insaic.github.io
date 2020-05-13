@@ -8,13 +8,13 @@ order: 1
 
 {% highlight typescript %}
 @Directive({
-  selector: "[stop-propagation]"
+  selector: '[stop-propagation]'
 })
 {% endhighlight %}
 
 <br>
 
-场景范例：
+范例：
 
 {% highlight html %}
 <div (click)="divClick()">

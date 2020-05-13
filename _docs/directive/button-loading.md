@@ -18,8 +18,6 @@ order: 3
 
 <br>
 
-场景范例：
-
 HTML 代码：
 
 {% highlight html %}

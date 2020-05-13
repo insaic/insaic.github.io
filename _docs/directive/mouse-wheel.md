@@ -14,7 +14,7 @@ order: 2
 
 <br>
 
-场景范例：
+范例：
 
 {% highlight html %}
 <div (mouseWheelUp)="up($event)" (mouseWheel)="scroll($event)" (mouseWheelDown)="down($event)" mouse-wheel>
