@@ -17,7 +17,7 @@ order: 1
 场景范例：
 
 {% highlight html %}
- <div (click)="divClick()">
+<div (click)="divClick()">
   <a href="javascript:void(0)" (click)="aClick()">Click Me</a>
 </div>
 {% endhighlight %}
@@ -25,7 +25,7 @@ order: 1
 正常情况下，点击 `a` 元素，会先触发 `aClick()`，  继而冒泡触发 `divClick()`，某些时候这可能不符合需求，阻止冒泡方法如下：
 
 {% highlight html %}
- <div (click)="divClick()">
+<div (click)="divClick()">
   <a href="javascript:void(0)" (click)="aClick()" stop-propagation>Click Me</a>
 </div>
 {% endhighlight %}
