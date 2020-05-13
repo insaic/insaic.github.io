@@ -1,7 +1,7 @@
 ---
 title: header
-category: Directive
-order: 3
+category: Component
+order: 1
 ---
 
 框架头部，标签如下：
