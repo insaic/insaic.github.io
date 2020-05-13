@@ -19,3 +19,20 @@ order: 3
 <br>
 
 场景范例：
+
+HTML 代码：
+
+{% highlight html %}
+<button mat-flat-button [loading]="isSearching" (click)="getUser()" color="primary">搜 索</button>
+{% endhighlight %}
+
+脚本：
+
+{% highlight typescript %}
+isSearching: boolean = false
+
+getUser() {
+  this.isSearching = true
+  setTimeout(() => this.isSearching = false, 3000)
+}
+{% endhighlight %}
