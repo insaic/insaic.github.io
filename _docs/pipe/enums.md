@@ -7,14 +7,15 @@ order: 1
 枚举转换，如果使用 `enums` 则枚举文件为 `@global/enums.ts`，如下：
 
 {% highlight html %}
-<p>{{val | enums: 'company'}}</p>
+\{{val | enums: 'company'}}
 {% endhighlight %}
 
+<br>
 
 如果使用 `privateEnum` 则可自定义枚举，如下：
 
 {% highlight html %}
-<p>{{emnuText | privateEnum: enums}}</p>
+\{{emnuText | privateEnum: enums}}
 {% endhighlight %}
 
 {% highlight typescript %}
