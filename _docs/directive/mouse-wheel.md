@@ -21,4 +21,10 @@ order: 2
 </div>
 {% endhighlight %}
 
-可以触发三个事件，均非必须，事件类型为 `WheelEvent`。
+支持三个属性：
+
+* (mouseWheel): 鼠标滚动时触发，非必须；
+* (mouseWheelUp): 鼠标向上滚动时触发，非必须；
+* (mouseWheelDown): 鼠标向下滚动时触发，非必须；
+
+事件类型均为 `WheelEvent`。
