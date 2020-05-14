@@ -4,7 +4,7 @@ category: Component
 order: 1
 ---
 
-loading，标签如下：
+加载元素，标签如下：
 
 {% highlight html %}
 <app-loading></app-loading>
