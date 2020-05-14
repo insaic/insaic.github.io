@@ -6,13 +6,13 @@ order: 1
 
 注入方式，注入名称使用 `$app`，禁止使用其它名称
 
-{% highlight javascript %}
+```typescript
 //从 @global 引入
 import { AppService } from '@global/service/app.service'
 
 //初始化时注入
 constructor(private $app: AppService) { }
-{% endhighlight %}
+```
 
 <br />
 <br />
@@ -21,9 +21,9 @@ constructor(private $app: AppService) { }
 
 获取当前项目的名称；
 
-{% highlight javascript %}
+```typescript
 $app.name
-{% endhighlight %}
+```
 
 返回一个字符串类型，如 base, policy, renew, dim ....
 
@@ -35,13 +35,13 @@ $app.name
 
 获取当前登陆用户的信息，通过订阅方式获得；
 
-{% highlight javascript %}
+```typescript
 this.$app.getUser().subscribe(user => console.log(user))
-{% endhighlight %}
+```
 
 返回一个 `Observable<UserModel>` ，如下：
 
-{% highlight javascript %}
+```typescript
 {
   userCode: "sit-test",
   userName: "集成测试",
@@ -54,7 +54,7 @@ this.$app.getUser().subscribe(user => console.log(user))
   captcha: null,
   brandCode: "VW"
 }
-{% endhighlight %}
+```
 
 <br />
 <br />

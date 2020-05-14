@@ -6,6 +6,6 @@ order: 1
 
 框架头部，标签如下：
 
-{% highlight html %}
+```html
 <app-header></app-header>
-{% endhighlight %}
+```

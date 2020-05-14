@@ -6,13 +6,13 @@ order: 3
 
 注入方式，注入名称使用 `$http`，禁止使用其它名称；
 
-{% highlight javascript %}
+```typescript
 //从 @global 引入
 import { HttpService } from '@global/service/http.service'
 
 //初始化时注入
 constructor(private $http: HttpService) { }
-{% endhighlight %}
+```
 
 <br />
 <br />
@@ -30,9 +30,9 @@ constructor(private $http: HttpService) { }
 
 入参如下：
 
-{% highlight javascript %}
+```typescript
 post(url: string, data: any = {}, header: object = {})
-{% endhighlight %}
+```
 
 * 参数 `url`: 必填；
 * 参数 `data`: 可为空，默认为一个空对象 {}；
@@ -40,10 +40,10 @@ post(url: string, data: any = {}, header: object = {})
 
 如果header 中有字段 `force` 为 `true`，则该请求不进行错误处理，并全文返回；
 
-{% highlight javascript %}
+```typescript
 this.$http.post('/dim-api/user', {name: 'dfrrdi'}).subscribe(data => {
   console.log(data)
 )
-{% endhighlight %}
+```
 
 

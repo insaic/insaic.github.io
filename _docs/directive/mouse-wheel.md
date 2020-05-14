@@ -6,20 +6,21 @@ order: 2
 
 监听在元素上的鼠标滚动事件，选择器如下：
 
-{% highlight typescript %}
+```typescript
 @Directive({
   selector: '[mouse-wheel]'
 })
-{% endhighlight %}
+```
 
 <br>
 
 范例：
 
-{% highlight html %}
+```html
 <div (mouseWheelUp)="up($event)" (mouseWheel)="scroll($event)" (mouseWheelDown)="down($event)" mouse-wheel>
+  
 </div>
-{% endhighlight %}
+```
 
 支持三个属性：
 

@@ -6,9 +6,9 @@ order: 1
 
 加载元素，标签如下：
 
-{% highlight html %}
+```html
 <app-loading></app-loading>
-{% endhighlight %}
+```
 
 支持一个属性：
 

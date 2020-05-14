@@ -14,16 +14,16 @@ order: 1
 
 如果使用 `privateEnum` 则可自定义枚举，如下：
 
-{% highlight html %}
+```html
 {{emnuText | privateEnum: enums}}
-{% endhighlight %}
+```
 
-{% highlight typescript %}
+```typescript
 emnuText: string = 'a'
 
 enums: object = {
   a: '1',
   b: 2
 }
-{% endhighlight %}
+```
 

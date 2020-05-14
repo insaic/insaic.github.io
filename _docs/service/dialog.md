@@ -6,13 +6,13 @@ order: 2
 
 注入方式，注入名称使用 `$dialog`，禁止使用其它名称
 
-{% highlight javascript %}
+```typescript
 //从 @global 引入
 import { DialogService } from '@global/service/dialog.service'
 
 //初始化时注入
 constructor(private $dialog: DialogService) { }
-{% endhighlight %}
+```
 
 <br />
 <br />
@@ -23,20 +23,20 @@ constructor(private $dialog: DialogService) { }
 
 入参如下：
 
-{% highlight javascript %}
+```typescript
 alert(text: string, okText?: string)
-{% endhighlight %}
+```
 
 * 参数 `text`: 必填，为弹出内容；
 * 参数 `okText`: 选填，为确定按钮的显示文本，默认为”确定“；
 
 如果需要回调，则使用订阅方式，范例如下：
 
-{% highlight javascript %}
+```typescript
 this.$dialog.alert('You Are OK!', 'OK').subscribe(() => {
   console.log('you clicked ok')
 })
-{% endhighlight %}
+```
 
 <br />
 <br />
@@ -47,19 +47,19 @@ this.$dialog.alert('You Are OK!', 'OK').subscribe(() => {
 
 入参如下：
 
-{% highlight javascript %}
+```typescript
 confirm(text: string, okText?: string, cancelText?: string)
-{% endhighlight %}
+```
 
 同上 `$dialog.alert()`，新增一个 `cancelText` 参数为取消按钮的显示文本，选填，默认为”取消“，范例如下：
 
-{% highlight javascript %}
+```typescript
 this.$dialog.confirm('Are You OK ?').subscribe(() => {
     console.log('yes, i am ok!')
   }, () => {
     console.log('no, i am bad!')
   }
 )
-{% endhighlight %}
+```
 
 

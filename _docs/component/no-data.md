@@ -6,9 +6,9 @@ order: 1
 
 信息为空时候显示的暂无数据，标签如下：
 
-{% highlight html %}
+```html
 <app-no-data></app-no-data>
-{% endhighlight %}
+```
 
 支持两个属性：
 
