@@ -7,7 +7,7 @@ order: 1
 枚举转换，如果使用 `enums` 则枚举文件为 `@global/enums.ts`，如下：
 
 ```html
-{{val | enums: 'company'}}
+\{\{val | enums: 'company'}}
 ```
 
 <br>
