@@ -6,8 +6,8 @@ order: 1
 
 枚举转换，如果使用 `enums` 则枚举文件为 `@global/enums.ts`，如下：
 
-```typescript
-\{\{val | enums: 'company'\}\}
+```html
+&#123;&#123;val | enums: 'company'}}
 ```
 
 <br>
