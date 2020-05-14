@@ -6,16 +6,16 @@ order: 1
 
 枚举转换，如果使用 `enums` 则枚举文件为 `@global/enums.ts`，如下：
 
-```
-{{val}}
+```html
+val | enums: 'company'
 ```
 
 <br>
 
 如果使用 `privateEnum` 则可自定义枚举，如下：
 
-```
-{{emnuText | privateEnum: enums}}
+```html
+emnuText | privateEnum: enums
 ```
 
 ```typescript
