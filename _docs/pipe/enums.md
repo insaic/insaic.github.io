@@ -6,29 +6,17 @@ order: 1
 
 枚举转换，如果使用 `enums` 则枚举文件为 `@global/enums.ts`，如下：
 
-<div class="language-html highlighter-rouge">
-  <div class="highlight">
-    <pre class="highlight">
-      <code>
-      {{val | enums: 'company'}}
-      </code>
-    </pre>
-  </div>
-</div>
+```html
+val | enums: 'company'
+```
 
 <br>
 
 如果使用 `privateEnum` 则可自定义枚举，如下：
 
-<div class="language-html highlighter-rouge">
-  <div class="highlight">
-    <pre class="highlight">
-      <code>
-      {{emnuText | privateEnum: enums}}
-      </code>
-    </pre>
-  </div>
-</div>
+```html
+emnuText | privateEnum: enums
+```
 
 ```typescript
 emnuText: string = 'a'
