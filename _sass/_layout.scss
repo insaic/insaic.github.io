@@ -249,13 +249,17 @@ nav > ul {
 		font-size: 1.4rem;
 		padding: $space / 2 0 $space / 2 $space * 2;
 		display: block;
-	}
-
+  }
+  
 	&.current > a,
 	> a:active,
 	> a:hover {
 		color: #111;
-	}
+  }
+  
+  &.current > a {
+    background: #e3e3e3;
+  }
 
 	&.top-level > a {
 		line-height: 1.5;
