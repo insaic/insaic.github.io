@@ -14,9 +14,11 @@ val | enums: 'company'
 
 如果使用 `privateEnum` 则可自定义枚举，如下：
 
-{% highlight html linenos %}
+```html
+{% raw %}
 {{emnuText | privateEnum: enums}}
-{% endhighlight %}
+{% endraw %}
+```
 
 
 ```typescript
