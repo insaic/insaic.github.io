@@ -15,9 +15,7 @@ val | enums: 'company'
 如果使用 `privateEnum` 则可自定义枚举，如下：
 
 ```html
-{% raw %}
-{{emnuText | privateEnum: enums}}
-{% endraw %}
+{% raw %}{{emnuText | privateEnum: enums}}{% endraw %}
 ```
 
 
