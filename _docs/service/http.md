@@ -17,14 +17,14 @@ constructor(private $http: HttpService) { }
 <br />
 <br />
 
-###### 1 $http.search()
+###### $http.search()
 
 获取当前 url 的 GET 参数，返回一个对象；
 
 <br />
 <br />
 
-###### 2 $http.post()
+###### $http.post()
 
 默认的 POST 请求，已加入错误处理，返回一个可观察对象；
 

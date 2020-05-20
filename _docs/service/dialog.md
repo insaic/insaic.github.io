@@ -17,7 +17,7 @@ constructor(private $dialog: DialogService) { }
 <br />
 <br />
 
-###### 1 $dialog.alert()
+###### $dialog.alert()
 
 弹出一个对话框，相当于浏览器内置的 `alert()`
 
@@ -41,7 +41,7 @@ this.$dialog.alert('You Are OK!', 'OK').subscribe(() => {
 <br />
 <br />
 
-###### 2 $dialog.confirm()
+###### $dialog.confirm()
 
 弹出一个确认框，相当于浏览器内置的 `confirm()`
 

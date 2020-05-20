@@ -17,7 +17,7 @@ constructor(private $app: AppService) { }
 <br />
 <br />
 
-###### 1 $app.name
+###### $app.name
 
 获取当前项目的名称；
 
@@ -31,7 +31,7 @@ $app.name
 <br />
 <br />
 
-###### 2 $app.getUser()
+###### $app.getUser()
 
 获取当前登陆用户的信息，通过订阅方式获得；
 
