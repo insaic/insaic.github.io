@@ -1,7 +1,7 @@
 ---
 title: $http
 category: Service
-order: 3
+order: 4
 ---
 
 注入方式，注入名称使用 `$http`，禁止使用其它名称；

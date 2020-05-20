@@ -1,7 +1,7 @@
 ---
 title: $dialog
 category: Service
-order: 2
+order: 3
 ---
 
 注入方式，注入名称使用 `$dialog`，禁止使用其它名称
