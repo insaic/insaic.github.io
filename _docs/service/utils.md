@@ -17,7 +17,7 @@ constructor(private $utils: UtilsService) { }
 <br />
 <br />
 
-###### 1 $utils.setDocTitle(title: string)
+###### 1 $utils.setDocTitle()
 
 设置浏览器页面的标题
 
@@ -50,14 +50,59 @@ setDocTitle(title: string)
 <br />
 <br />
 
-###### 2 $utils.isMobile()
+###### 3 $utils.isMobile()
 
-判断是否是大陆地区固定电话
+判断是否是大陆地区手机号码
 
 ```typescript
 isMobile(phone: string | number)
  ```
 
   * 参数 `phone`: 必填；
+   
+返回布尔值。
+
+<br />
+<br />
+
+###### 4 $utils.isPhone()
+
+判断是否是大陆地区固定电话
+
+```typescript
+isPhone(phone: string | number)
+ ```
+
+  * 参数 `phone`: 必填；
+   
+返回布尔值。
+
+<br />
+<br />
+
+###### 5 $utils.isOrgCode()
+
+判断是否是组织机构
+
+```typescript
+isOrgCode(code: string)
+ ```
+
+  * 参数 `code`: 必填；
+   
+返回布尔值。
+
+<br />
+<br />
+
+###### 6 $utils.isVin()
+
+判断是否是 vin 码
+
+```typescript
+isVin(code: string)
+ ```
+
+  * 参数 `code`: 必填；
    
 返回布尔值。
