@@ -78,77 +78,71 @@ order: 1
     <b>var(--black-3)</b>
   </li>
   <li>
-    <div style="background-color: #444444">
-    <span>#444444</span>
+    <div style="background-color: #4b4f56">
+    <span>#4b4f56</span>
     </div>
     <b>var(--black-4)</b>
   </li>
   <li>
-    <div style="background-color: #555555">
-    <span>#555555</span>
+    <div style="background-color: #545a61">
+    <span>#545a61</span>
     </div>
     <b>var(--black-5)</b>
   </li>
   <li>
-    <div style="background-color: #666666">
-    <span>#666666</span>
+    <div style="background-color: #606267">
+    <span>#606267</span>
     </div>
     <b>var(--black-6)</b>
   </li>
   <li>
-    <div style="background-color: #777777">
-    <span>#777777</span>
+    <div style="background-color: #62666d">
+    <span>#62666d</span>
     </div>
     <b>var(--black-7)</b>
   </li>
   <li>
-    <div style="background-color: #888888">
-    <span>#888888</span>
+    <div style="background-color: #7d8188">
+    <span>#7d8188</span>
     </div>
     <b>var(--black-8)</b>
   </li>
   <li>
-    <div style="background-color: #999999">
-    <span>#999999</span>
+    <div style="background-color: #8e9398">
+    <span>#8e9398</span>
     </div>
     <b>var(--black-9)</b>
   </li>
 
   <li>
-    <div style="background-color: #aaaaaa">
-    <span>#aaaaaa</span>
+    <div style="background-color: #a0a5ab">
+    <span>#a0a5ab</span>
     </div>
     <b>var(--gray-a)</b>
   </li>
   <li>
-    <div style="background-color: #bbbbbb">
-    <span>#bbbbbb</span>
+    <div style="background-color: #b3b8bb">
+    <span>#b3b8bb</span>
     </div>
     <b>var(--gray-b)</b>
   </li>
   <li>
-    <div style="background-color: #cccccc">
-    <span>#cccccc</span>
+    <div style="background-color: #c9cbd0">
+    <span>#c9cbd0</span>
     </div>
     <b>var(--gray-c)</b>
   </li>
   <li>
-    <div style="background-color: #dddddd">
-    <span>#dddddd</span>
+    <div style="background-color: #dcdee0">
+    <span>#dcdee0</span>
     </div>
     <b>var(--gray-d)</b>
   </li>
   <li>
-    <div style="background-color: #eeeeee">
-    <span>#eeeeee</span>
+    <div style="background-color: #e7e9ec">
+    <span>#e7e9ec</span>
     </div>
     <b>var(--gray-e)</b>
-  </li>
-  <li>
-    <div style="background-color: #dddddd">
-    <span>#dddddd</span>
-    </div>
-    <b>var(--gray-d)</b>
   </li>
   <li>
     <div style="background-color: #f0f0f0">
