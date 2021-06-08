@@ -18,28 +18,28 @@ order: 1
     <div style="background-color: #1e88e5">
     <span>#1e88e5</span>
     </div>
-    <b>Primary</b>
+    <b>primary</b>
   </li>
 
   <li>
     <div style="background-color: #03a9f4">
     <span>#03a9f4</span>
     </div>
-    <b>Accent</b>
+    <b>accent</b>
   </li>
 
   <li>
     <div style="background-color: #4caf50">
     <span>#4caf50</span>
     </div>
-    <b>Green</b>
+    <b>green</b>
   </li>
 
   <li>
     <div style="background-color: #ff5722">
     <span>#ff5722</span>
     </div>
-    <b>Warn</b>
+    <b>warn</b>
   </li>
 
 </ul>
