@@ -3,15 +3,20 @@
 
   li {
 
+    width: 100%;
+
     div {
 
-      span {
+      width: 100%;
 
+      span {
+        background: #ccc;
+        color: #fff;
       }
     }
 
     b {
-      
+      color: red;
     }
     
   }

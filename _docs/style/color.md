@@ -8,6 +8,9 @@ order: 1
 
 开发使用 `var(...)` 来定义颜色，`RGB` 值禁止写入 CSS 代码里。
 
+<br />
+<br />
+
 ###### Theme Color / 主题颜色
 
 <ul class="colorBoard">
