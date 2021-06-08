@@ -84,12 +84,41 @@ order: 1
     </div>
     <b>var(--green-50)</b>
   </li>
+
+  <li>
+    <div style="background-color: #455a64">
+    <span>#455a64</span>
+    </div>
+    <b>var(--darkBlueGrey)</b>
+  </li>
   
+  <li>
+    <div style="background-color: #607d8b">
+    <span>#607d8b</span>
+    </div>
+    <b>var(--blueGrey)</b>
+  </li>
+
+  <li>
+    <div style="background-color: #b0bec5">
+    <span>#b0bec5</span>
+    </div>
+    <b>var(--lightBlueGrey)</b>
+  </li>
+
   <li>
     <div style="background-color: #ffffff">
     <span>#ffffff</span>
     </div>
     <b>var(--white)</b>
   </li>
+
+  <li>
+    <div style="background-color: rgba(255, 255, 255, 0.5)">
+    <span>rgba(255, 255, 255, 0.5)</span>
+    </div>
+    <b>var(--white-50)</b>
+  </li>
+
 
 </ul>
