@@ -43,3 +43,53 @@ order: 1
   </li>
 
 </ul>
+
+<br />
+<br />
+
+###### 自定义颜色
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #f44336">
+    <span>#f44336</span>
+    </div>
+    <b>var(--red)</b>
+  </li>
+
+  <li>
+    <div style="background-color: #4CAF50">
+    <span>#4CAF50</span>
+    </div>
+    <b>var(--green)</b>
+  </li>
+
+  <li>
+    <div style="background-color: #ff9800">
+    <span>#ff9800</span>
+    </div>
+    <b>var(--orange)</b>
+  </li>
+
+  <li>
+    <div style="background-color: rgba(0, 0, 0, 0.5)">
+    <span>rgba(0, 0, 0, 0.5)</span>
+    </div>
+    <b>var(--black-50)</b>
+  </li>
+
+  <li>
+    <div style="background-color: rgba(76, 175, 79, 0.5)">
+    <span>rgba(76, 175, 79, 0.5)</span>
+    </div>
+    <b>var(--green-50)</b>
+  </li>
+  
+  <li>
+    <div style="background-color: #ffffff">
+    <span>#ffffff</span>
+    </div>
+    <b>var(--white)</b>
+  </li>
+
+</ul>
