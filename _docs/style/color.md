@@ -65,10 +65,22 @@ order: 1
   </li>
 
   <li>
+    <div style="background-color: #ffcc80">
+    <span>#ffcc80</span>
+    </div>
+    <b>var(--lightOrange)</b>
+  </li>
+  <li>
     <div style="background-color: #ff9800">
     <span>#ff9800</span>
     </div>
     <b>var(--orange)</b>
+  </li>
+  <li>
+    <div style="background-color: #ff5722">
+    <span>#ff5722</span>
+    </div>
+    <b>var(--deepOrange)</b>
   </li>
 
   <li>
@@ -104,6 +116,28 @@ order: 1
     <span>#b0bec5</span>
     </div>
     <b>var(--lightBlueGrey)</b>
+  </li>
+
+
+  <li>
+    <div style="background-color: #4e342e">
+    <span>#4e342e</span>
+    </div>
+    <b>var(--darkBrown)</b>
+  </li>
+  
+  <li>
+    <div style="background-color: #795548">
+    <span>#795548</span>
+    </div>
+    <b>var(--brown)</b>
+  </li>
+
+  <li>
+    <div style="background-color: #bcaaa4">
+    <span>#bcaaa4</span>
+    </div>
+    <b>var(--lightBrown)</b>
   </li>
 
   <li>
