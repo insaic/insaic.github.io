@@ -51,24 +51,234 @@ order: 1
 
 <ul class="colorBoard">
   <li>
+    <div style="background-color: #f1f1f4">
+    <span>#f1f1f4</span>
+    </div>
+    <b>var(--bodyBackground)</b>
+  </li>
+</ul>
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #111111">
+    <span>#111111</span>
+    </div>
+    <b>var(--black-1)</b>
+  </li>
+  <li>
+    <div style="background-color: #222222">
+    <span>#222222</span>
+    </div>
+    <b>var(--black-2)</b>
+  </li>
+  <li>
+    <div style="background-color: #333333">
+    <span>#333333</span>
+    </div>
+    <b>var(--black-3)</b>
+  </li>
+  <li>
+    <div style="background-color: #444444">
+    <span>#444444</span>
+    </div>
+    <b>var(--black-4)</b>
+  </li>
+  <li>
+    <div style="background-color: #555555">
+    <span>#555555</span>
+    </div>
+    <b>var(--black-5)</b>
+  </li>
+  <li>
+    <div style="background-color: #666666">
+    <span>#666666</span>
+    </div>
+    <b>var(--black-6)</b>
+  </li>
+  <li>
+    <div style="background-color: #777777">
+    <span>#777777</span>
+    </div>
+    <b>var(--black-7)</b>
+  </li>
+  <li>
+    <div style="background-color: #888888">
+    <span>#888888</span>
+    </div>
+    <b>var(--black-8)</b>
+  </li>
+  <li>
+    <div style="background-color: #999999">
+    <span>#999999</span>
+    </div>
+    <b>var(--black-9)</b>
+  </li>
+
+  <li>
+    <div style="background-color: #aaaaaa">
+    <span>#aaaaaa</span>
+    </div>
+    <b>var(--gray-a)</b>
+  </li>
+  <li>
+    <div style="background-color: #bbbbbb">
+    <span>#bbbbbb</span>
+    </div>
+    <b>var(--gray-b)</b>
+  </li>
+  <li>
+    <div style="background-color: #cccccc">
+    <span>#cccccc</span>
+    </div>
+    <b>var(--gray-c)</b>
+  </li>
+  <li>
+    <div style="background-color: #dddddd">
+    <span>#dddddd</span>
+    </div>
+    <b>var(--gray-d)</b>
+  </li>
+  <li>
+    <div style="background-color: #eeeeee">
+    <span>#eeeeee</span>
+    </div>
+    <b>var(--gray-e)</b>
+  </li>
+  <li>
+    <div style="background-color: #dddddd">
+    <span>#dddddd</span>
+    </div>
+    <b>var(--gray-d)</b>
+  </li>
+  <li>
+    <div style="background-color: #f0f0f0">
+    <span>#f0f0f0</span>
+    </div>
+    <b>var(--gray-f0)</b>
+  </li> 
+  <li>
+    <div style="background-color: #f7fafe">
+    <span>#f7fafe</span>
+    </div>
+    <b>var(--gray-f7)</b>
+  </li> 
+
+  <li>
+    <div style="background-color: rgba(0, 0, 0, 0.5)">
+    <span>rgba(0, 0, 0, 0.5)</span>
+    </div>
+    <b>var(--black-50)</b>
+  </li>
+</ul>
+
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #b71c1c">
+    <span>#b71c1c</span>
+    </div>
+    <b>var(--deepRed)</b>
+  </li>
+  <li>
     <div style="background-color: #f44336">
     <span>#f44336</span>
     </div>
     <b>var(--red)</b>
   </li>
-
   <li>
-    <div style="background-color: #4CAF50">
-    <span>#4CAF50</span>
+    <div style="background-color: #ef9a9a">
+    <span>#ef9a9a</span>
+    </div>
+    <b>var(--lightRed)</b>
+  </li>
+</ul>
+
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #2e7d32">
+    <span>#2e7d32</span>
+    </div>
+    <b>var(--deepGreen)</b>
+  </li>
+  <li>
+    <div style="background-color: #4caf50">
+    <span>#4caf50</span>
     </div>
     <b>var(--green)</b>
   </li>
-
   <li>
-    <div style="background-color: #ffcc80">
-    <span>#ffcc80</span>
+    <div style="background-color: #a5d6a7">
+    <span>#a5d6a7</span>
     </div>
-    <b>var(--lightOrange)</b>
+    <b>var(--lightGreen)</b>
+  </li>
+  <li>
+    <div style="background-color: rgba(76, 175, 79, 0.5)">
+    <span>rgba(76, 175, 79, 0.5)</span>
+    </div>
+    <b>var(--green-50)</b>
+  </li>
+
+</ul>
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #f9a825">
+    <span>#f9a825</span>
+    </div>
+    <b>var(--deepYellow)</b>
+  </li>
+  <li>
+    <div style="background-color: #ffeb3b">
+    <span>#ffeb3b</span>
+    </div>
+    <b>var(--yellow)</b>
+  </li>
+  <li>
+    <div style="background-color: #fff59d">
+    <span>#fff59d</span>
+    </div>
+    <b>var(--lightYellow)</b>
+  </li>
+</ul>
+
+
+
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #1565c0">
+    <span>#1565c0</span>
+    </div>
+    <b>var(--deepBlue)</b>
+  </li>
+  <li>
+    <div style="background-color: #1e88e5">
+    <span>#1e88e5</span>
+    </div>
+    <b>var(--blue)</b>
+  </li>
+  <li>
+    <div style="background-color: #90caf9">
+    <span>#90caf9</span>
+    </div>
+    <b>var(--lightBlue)</b>
+  </li>
+  <li>
+    <div style="background-color: #bdd5f1">
+    <span>#bdd5f1</span>
+    </div>
+    <b>var(--lightBlue-b)</b>
+  </li>
+</ul>
+
+<ul class="colorBoard">
+  <li>
+    <div style="background-color: #ff5722">
+    <span>#ff5722</span>
+    </div>
+    <b>var(--deepOrange)</b>
   </li>
   <li>
     <div style="background-color: #ff9800">
@@ -77,31 +287,19 @@ order: 1
     <b>var(--orange)</b>
   </li>
   <li>
-    <div style="background-color: #ff5722">
-    <span>#ff5722</span>
+    <div style="background-color: #ffcc80">
+    <span>#ffcc80</span>
     </div>
-    <b>var(--deepOrange)</b>
+    <b>var(--lightOrange)</b>
   </li>
+</ul>
 
-  <li>
-    <div style="background-color: rgba(0, 0, 0, 0.5)">
-    <span>rgba(0, 0, 0, 0.5)</span>
-    </div>
-    <b>var(--black-50)</b>
-  </li>
-
-  <li>
-    <div style="background-color: rgba(76, 175, 79, 0.5)">
-    <span>rgba(76, 175, 79, 0.5)</span>
-    </div>
-    <b>var(--green-50)</b>
-  </li>
-
+<ul class="colorBoard">
   <li>
     <div style="background-color: #455a64">
     <span>#455a64</span>
     </div>
-    <b>var(--darkBlueGrey)</b>
+    <b>var(--deepBlueGrey)</b>
   </li>
   
   <li>
@@ -123,7 +321,7 @@ order: 1
     <div style="background-color: #4e342e">
     <span>#4e342e</span>
     </div>
-    <b>var(--darkBrown)</b>
+    <b>var(--deepBrown)</b>
   </li>
   
   <li>
