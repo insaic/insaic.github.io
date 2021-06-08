@@ -316,7 +316,9 @@ order: 1
     <b>var(--lightBlueGrey)</b>
   </li>
 
+</ul>
 
+<ul class="colorBoard">
   <li>
     <div style="background-color: #4e342e">
     <span>#4e342e</span>
@@ -337,7 +339,9 @@ order: 1
     </div>
     <b>var(--lightBrown)</b>
   </li>
+</ul>
 
+<ul class="colorBoard">
   <li>
     <div style="background-color: #ffffff">
     <span>#ffffff</span>
