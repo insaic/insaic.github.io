@@ -56,6 +56,12 @@ order: 1
     </div>
     <b>var(--bodyBackground)</b>
   </li>
+  <li>
+    <div style="background-color: #33363f">
+    <span>#33363f</span>
+    </div>
+    <b>var(--sideMenuBackground)</b>
+  </li>
 </ul>
 
 <ul class="colorBoard">
