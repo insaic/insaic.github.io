@@ -57,8 +57,8 @@ order: 1
     <b>var(--bodyBackground)</b>
   </li>
   <li>
-    <div style="background-color: #33363f">
-    <span>#33363f</span>
+    <div style="background-color: #2e3d4c">
+    <span>#2e3d4c</span>
     </div>
     <b>var(--sideMenuBackground)</b>
   </li>
