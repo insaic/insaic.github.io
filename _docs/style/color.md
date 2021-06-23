@@ -343,6 +343,29 @@ order: 1
 
 <ul class="colorBoard">
   <li>
+    <div style="background-color: #766fc6">
+    <span>#766fc6</span>
+    </div>
+    <b>var(--deepPurple)</b>
+  </li>
+  
+  <li>
+    <div style="background-color: #9575cd">
+    <span>#9575cd</span>
+    </div>
+    <b>var(--purple)</b>
+  </li>
+
+  <li>
+    <div style="background-color: #b097dc">
+    <span>#b097dc</span>
+    </div>
+    <b>var(--lightPurple)</b>
+  </li>
+</ul>
+
+<ul class="colorBoard">
+  <li>
     <div style="background-color: #ffffff">
     <span>#ffffff</span>
     </div>
