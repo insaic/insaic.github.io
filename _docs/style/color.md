@@ -357,8 +357,8 @@ order: 1
   </li>
 
   <li>
-    <div style="background-color: #b097dc">
-    <span>#b097dc</span>
+    <div style="background-color: #bea8e4">
+    <span>#bea8e4</span>
     </div>
     <b>var(--lightPurple)</b>
   </li>
