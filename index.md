@@ -4,26 +4,7 @@ title: 框架概述
 
 如题
 
-#### 框架文档：<a href="http://angular.cn" target="_blank">http://angular.cn<a> / <a href="http://angular.io" target="_blank">http://angular.io<a>
+#### 框架文档：<a href="http://angular.cn" target="_blank">http://angular.cn<a>
 
-{% highlight swift %}
-struct ContentView: View {
-    @State var showDetails = false
+#### UI文档：<a href="https://material.angular.cn/" target="_blank">https://material.angular.cn<a>
 
-    var body: some View {
-        VStack {
-            Button(action: {
-                withAnimation {
-                    self.showDetails.toggle()
-                }
-            }) {
-                Text("Tap to show details")
-            }
-
-            if showDetails {
-                Text("Details go here.")
-            }
-        }
-    }
-}
-{% endhighlight %}
