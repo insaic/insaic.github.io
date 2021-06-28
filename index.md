@@ -4,7 +4,7 @@ title: 框架概述
 
 如题
 
-### 框架文档：http://angular.cn/
+#### 框架文档：<a href="http://angular.cn" target="_blank">http://angular.cn<a> / <a href="http://angular.io" target="_blank">http://angular.io<a>
 
 {% highlight swift %}
 struct ContentView: View {
